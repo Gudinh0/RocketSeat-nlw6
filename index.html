@@ -1,3 +1,5 @@
+<!-- Parei na Aula 02 - Maximum Speed time: 39:30 -->
+
 <!DOCTYPE html>
 <html lang="pt_BR">
   <head>
@@ -23,9 +25,21 @@
 
   <body>
     <header id="header">
-      <nav class="container">
+      <nav class="container show">
         <a class="logo" href="#">Controller<span>$</span> </a>
-        <div class="menu">...</div>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
+            <li><a class="title" href="#home">Início</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="open">...</div>
+        <div class="close">x</div>
       </nav>
     </header>
     <main>
@@ -36,16 +50,22 @@
           </div>
 
           <div class="text">
-            <h1>Seu App de controle financeiro</h1>
+            <h2 class="title">Seu App de controle financeiro</h2>
             <p>Organize seu patrimônio de maneira facil e rápida</p>
             <a class="button" href="#">Baixe o App</a>
           </div>
         </div>
       </section>
       <div class="divider-1"></div>
-      <section class="section"></section>
-      <section class="section"></section>
-      <section class="section"></section>
+      <section class="section" id="about">
+        <div class="container grid">Sobre</div>
+      </section>
+      <section class="section" id="services">
+        <div class="container grid">Serviços</div>
+      </section>
+      <section class="section" id="testimonials">
+        <div class="container grid">Depoimentos</div>
+      </section>
     </main>
 
     <footer></footer>
